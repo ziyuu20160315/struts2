@@ -12,11 +12,18 @@ public class CustomerService {
 	@Autowired
 	private CustomerDAO customerDao;
 public static void text2(){
-		
+		System.out.println();
+	};
+	public static void text4(){
+		System.out.println();
+	};
+	public static void text3(){
+		System.out.println();
 	};
 	public void setCustomerDao(CustomerDAO customerDao) {
 		this.customerDao = customerDao;
 		text2();
+		text3();
 	}
 	
 	
