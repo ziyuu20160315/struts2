@@ -11,12 +11,9 @@ import org.springframework.stereotype.Component;
 public class CustomerService {
 	@Autowired
 	private CustomerDAO customerDao;
-public static void text(){
-		
-	};
+
 	public void setCustomerDao(CustomerDAO customerDao) {
 		this.customerDao = customerDao;
-		text();
 	}
 	
 	
